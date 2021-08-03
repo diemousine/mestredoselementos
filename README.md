@@ -1,4 +1,4 @@
-# mestredoselementos
+# Mestre dos Elementos
 Author: Diego S. D. Mousine
 
 Jogo Educacional de Cartas para aprendizado das própriedades periódicas dos elementos da tabela periódica.
