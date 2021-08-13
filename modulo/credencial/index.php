@@ -194,7 +194,7 @@ if(isset($_POST['ordem'])) {
 			 */
 			if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) { 
 				$captcha = $_POST['g-recaptcha-response'];
-				$response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LfGgA0UAAAAAPPjzs3h3x_TaPTjsSSI7MGzzN5N&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+				$response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
 				$response = json_decode($response, true);
 				if($response['success']) {
 					if(isset($_POST['usuario'], $_POST['email'], $_POST['senha'])) {
