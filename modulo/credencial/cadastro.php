@@ -10,7 +10,7 @@
     <input class='form-control' type='hidden' name='ordem' value='cadastrar' />
   </div>
   <div class='form-group'>
-    <center><div class="g-recaptcha" data-sitekey="6LfGgA0UAAAAALmj4ywWcP6_Ww9sFNsYyl-Jn1eM"></div></center>
+    <center><div class="g-recaptcha" data-sitekey=""></div></center>
   </div>
   <div class='form-group'>
     <button type='submit' id='cred-btn-submit' class='btn btn-primary' title='Cadastrar' disabled>Cadastrar</button>
